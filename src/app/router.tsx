@@ -30,18 +30,25 @@ function withShell(element: ReactNode) {
   )
 }
 
-export const router = createBrowserRouter([
-  { path: '/', element: withShell(<DashboardPage />) },
-  { path: '/matches', element: withShell(<MatchCollectionPage />) },
-  { path: '/matches/new', element: withShell(<MatchSetupPage />) },
-  { path: '/matches/:matchId', element: withShell(<MatchOverviewPage />) },
-  { path: '/matches/:matchId/score', element: withShell(<LiveScoringPage />) },
-  { path: '/matches/:matchId/scorecard', element: withShell(<ScorecardPage />) },
-  {
-    path: '/matches/:matchId/statistics',
-    element: withShell(<MatchStatisticsPage />),
-  },
-  { path: '/statistics', element: withShell(<StatisticsOverviewPage />) },
-  { path: '/import', element: withShell(<ImportMatchPage />) },
-  { path: '/settings', element: withShell(<SettingsPage />) },
-])
+export const router = createBrowserRouter(
+  [
+    { path: '/', element: withShell(<DashboardPage />) },
+    { path: '/matches', element: withShell(<MatchCollectionPage />) },
+    { path: '/matches/new', element: withShell(<MatchSetupPage />) },
+    { path: '/matches/:matchId', element: withShell(<MatchOverviewPage />) },
+    { path: '/matches/:matchId/score', element: withShell(<LiveScoringPage />) },
+    { path: '/matches/:matchId/scorecard', element: withShell(<ScorecardPage />) },
+    {
+      path: '/matches/:matchId/statistics',
+      element: withShell(<MatchStatisticsPage />),
+    },
+    { path: '/statistics', element: withShell(<StatisticsOverviewPage />) },
+    { path: '/import', element: withShell(<ImportMatchPage />) },
+    { path: '/settings', element: withShell(<SettingsPage />) },
+  ],
+  // Matches Vite's own `base` config (vite.config.ts), which GitHub Pages
+  // sets to `/<repo-name>/` via VITE_BASE_PATH at build time — without
+  // this, the router assumes it's served from the domain root and every
+  // route 404s when the app actually lives under a subpath.
+  { basename: import.meta.env.BASE_URL }
+)

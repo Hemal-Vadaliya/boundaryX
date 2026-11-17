@@ -6,13 +6,14 @@ import { VitePWA } from 'vite-plugin-pwa'
 import { defineConfig } from 'vitest/config'
 
 const dirname = path.dirname(fileURLToPath(import.meta.url))
+const basePath = process.env.VITE_BASE_PATH ?? '/'
 
 // https://vite.dev/config/
 export default defineConfig({
   // Defaults to root-relative paths (Vercel/Netlify serve from the domain
   // root). For GitHub Pages, set VITE_BASE_PATH to "/<repo-name>/" at build
   // time so asset URLs resolve under the repo's subpath.
-  base: process.env.VITE_BASE_PATH ?? '/',
+  base: basePath,
   plugins: [
     react(),
     tailwindcss(),
@@ -26,7 +27,8 @@ export default defineConfig({
         theme_color: '#101827',
         background_color: '#101827',
         display: 'standalone',
-        start_url: '/',
+        start_url: basePath,
+        scope: basePath,
         icons: [
           {
             src: 'favicon.svg',
