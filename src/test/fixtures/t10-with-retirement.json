@@ -1,0 +1,363 @@
+{
+  "app": "BoundaryX",
+  "schemaVersion": 1,
+  "match": {
+    "id": "match_904bc0b9-d390-4e49-ae97-ca731fafc93a",
+    "name": "Elm Street Tigers vs Forest Hill Lions",
+    "venue": "Hilltop Arena",
+    "matchDate": "2026-11-18",
+    "formatConfig": {
+      "playersPerSide": 11,
+      "ballsPerOver": 6,
+      "format": "T10",
+      "oversPerInnings": 10,
+      "inningsPerTeam": 1,
+      "isCustom": false
+    },
+    "rulesProfile": {
+      "ballsPerOver": 6,
+      "playersPerSide": 11,
+      "noConsecutiveOvers": true,
+      "byesCountAsLegalDelivery": true,
+      "id": "standard-t10",
+      "label": "Standard T10",
+      "isOfficial": false,
+      "oversPerInnings": 10,
+      "inningsPerTeam": 1,
+      "maxOversPerBowler": 2,
+      "freeHitEnabled": true,
+      "followOnEnabled": false,
+      "superOverEnabled": true,
+      "powerplays": [
+        {
+          "name": "Powerplay",
+          "startOver": 0,
+          "endOver": 3,
+          "maxFieldersOutsideCircle": 2
+        }
+      ]
+    },
+    "teams": [
+      {
+        "team": {
+          "squad": [
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E0",
+              "name": "Elm Street Tigers Player 0"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E1",
+              "name": "Elm Street Tigers Player 1"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E2",
+              "name": "Elm Street Tigers Player 2"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E3",
+              "name": "Elm Street Tigers Player 3"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E4",
+              "name": "Elm Street Tigers Player 4"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E5",
+              "name": "Elm Street Tigers Player 5"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E6",
+              "name": "Elm Street Tigers Player 6"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E7",
+              "name": "Elm Street Tigers Player 7"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E8",
+              "name": "Elm Street Tigers Player 8"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E9",
+              "name": "Elm Street Tigers Player 9"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "E10",
+              "name": "Elm Street Tigers Player 10"
+            }
+          ],
+          "id": "team-E",
+          "name": "Elm Street Tigers",
+          "shortName": "ELM"
+        },
+        "playingXiIds": [
+          "E0",
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "team": {
+          "squad": [
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F0",
+              "name": "Forest Hill Lions Player 0"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F1",
+              "name": "Forest Hill Lions Player 1"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F2",
+              "name": "Forest Hill Lions Player 2"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F3",
+              "name": "Forest Hill Lions Player 3"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F4",
+              "name": "Forest Hill Lions Player 4"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F5",
+              "name": "Forest Hill Lions Player 5"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F6",
+              "name": "Forest Hill Lions Player 6"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F7",
+              "name": "Forest Hill Lions Player 7"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F8",
+              "name": "Forest Hill Lions Player 8"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F9",
+              "name": "Forest Hill Lions Player 9"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "F10",
+              "name": "Forest Hill Lions Player 10"
+            }
+          ],
+          "id": "team-F",
+          "name": "Forest Hill Lions",
+          "shortName": "FOR"
+        },
+        "playingXiIds": [
+          "F0",
+          "F1",
+          "F2",
+          "F3",
+          "F4",
+          "F5",
+          "F6",
+          "F7",
+          "F8",
+          "F9",
+          "F10"
+        ]
+      }
+    ],
+    "innings": [
+      {
+        "id": "innings_12b2eb48-c8d4-41ce-a3c3-545964b458c1",
+        "matchId": "match_904bc0b9-d390-4e49-ae97-ca731fafc93a",
+        "battingTeamId": "team-E",
+        "bowlingTeamId": "team-F",
+        "inningsNumber": 1,
+        "state": "in-progress",
+        "deliveries": [
+          {
+            "id": "delivery_ec1a3cb3-aed1-494b-bebf-df636b0741f0",
+            "inningsId": "innings_12b2eb48-c8d4-41ce-a3c3-545964b458c1",
+            "sequenceNumber": 0,
+            "overNumber": 0,
+            "legalBallNumber": 1,
+            "strikerIdBefore": "E0",
+            "nonStrikerIdBefore": "E1",
+            "bowlerId": "F0",
+            "batterRuns": 1,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          },
+          {
+            "id": "delivery_22443787-3f4f-4f0a-9150-8ce833b6f4b6",
+            "inningsId": "innings_12b2eb48-c8d4-41ce-a3c3-545964b458c1",
+            "sequenceNumber": 1,
+            "overNumber": 0,
+            "legalBallNumber": 2,
+            "strikerIdBefore": "E2",
+            "nonStrikerIdBefore": "E0",
+            "bowlerId": "F0",
+            "batterRuns": 2,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          }
+        ],
+        "batterInnings": {
+          "E0": {
+            "playerId": "E0",
+            "state": "batting",
+            "runs": 1,
+            "ballsFaced": 1,
+            "fours": 0,
+            "sixes": 0,
+            "battingPosition": 1
+          },
+          "E1": {
+            "playerId": "E1",
+            "state": "batting",
+            "runs": 0,
+            "ballsFaced": 0,
+            "fours": 0,
+            "sixes": 0,
+            "battingPosition": 2
+          },
+          "E2": {
+            "playerId": "E2",
+            "state": "batting",
+            "runs": 2,
+            "ballsFaced": 1,
+            "fours": 0,
+            "sixes": 0,
+            "battingPosition": 3
+          }
+        },
+        "bowlerFigures": {
+          "F0": {
+            "playerId": "F0",
+            "legalBallsBowled": 2,
+            "runsConceded": 3,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 0,
+            "noBalls": 0
+          }
+        },
+        "currentBatters": {
+          "striker": "E2",
+          "nonStriker": "E0"
+        },
+        "currentBowlerId": "F0",
+        "freeHitActive": false,
+        "legalBallsBowled": 2,
+        "wicketsLost": 0,
+        "declared": false,
+        "retirements": [
+          {
+            "playerId": "E1",
+            "type": "retired-hurt",
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          }
+        ],
+        "corrections": []
+      }
+    ],
+    "status": "ongoing",
+    "createdAt": "2026-11-15T12:59:33.943Z",
+    "updatedAt": "2026-11-15T12:59:33.943Z",
+    "toss": {
+      "wonByTeamId": "team-E",
+      "decision": "bat"
+    }
+  },
+  "metadata": {
+    "exportedAt": "2026-11-15T10:00:00.000Z",
+    "engineVersion": "1.0.0"
+  }
+}

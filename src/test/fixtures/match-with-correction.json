@@ -1,0 +1,376 @@
+{
+  "app": "BoundaryX",
+  "schemaVersion": 1,
+  "match": {
+    "id": "match_a5fc6941-e9ad-4230-9e88-a4f20a041e87",
+    "name": "Golden Gate Hawks vs Harbor City Sharks",
+    "venue": "Bayfront Stadium",
+    "matchDate": "2026-11-22",
+    "formatConfig": {
+      "playersPerSide": 11,
+      "ballsPerOver": 6,
+      "format": "T20",
+      "oversPerInnings": 20,
+      "inningsPerTeam": 1,
+      "isCustom": false
+    },
+    "rulesProfile": {
+      "ballsPerOver": 6,
+      "playersPerSide": 11,
+      "noConsecutiveOvers": true,
+      "byesCountAsLegalDelivery": true,
+      "id": "standard-t20",
+      "label": "Standard T20",
+      "isOfficial": false,
+      "oversPerInnings": 20,
+      "inningsPerTeam": 1,
+      "maxOversPerBowler": 4,
+      "freeHitEnabled": true,
+      "followOnEnabled": false,
+      "superOverEnabled": true,
+      "powerplays": [
+        {
+          "name": "Powerplay",
+          "startOver": 0,
+          "endOver": 5,
+          "maxFieldersOutsideCircle": 2
+        }
+      ]
+    },
+    "teams": [
+      {
+        "team": {
+          "squad": [
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G0",
+              "name": "Golden Gate Hawks Player 0"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G1",
+              "name": "Golden Gate Hawks Player 1"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G2",
+              "name": "Golden Gate Hawks Player 2"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G3",
+              "name": "Golden Gate Hawks Player 3"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G4",
+              "name": "Golden Gate Hawks Player 4"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G5",
+              "name": "Golden Gate Hawks Player 5"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G6",
+              "name": "Golden Gate Hawks Player 6"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G7",
+              "name": "Golden Gate Hawks Player 7"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G8",
+              "name": "Golden Gate Hawks Player 8"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G9",
+              "name": "Golden Gate Hawks Player 9"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "G10",
+              "name": "Golden Gate Hawks Player 10"
+            }
+          ],
+          "id": "team-G",
+          "name": "Golden Gate Hawks",
+          "shortName": "GLD"
+        },
+        "playingXiIds": [
+          "G0",
+          "G1",
+          "G2",
+          "G3",
+          "G4",
+          "G5",
+          "G6",
+          "G7",
+          "G8",
+          "G9",
+          "G10"
+        ]
+      },
+      {
+        "team": {
+          "squad": [
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H0",
+              "name": "Harbor City Sharks Player 0"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H1",
+              "name": "Harbor City Sharks Player 1"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H2",
+              "name": "Harbor City Sharks Player 2"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H3",
+              "name": "Harbor City Sharks Player 3"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H4",
+              "name": "Harbor City Sharks Player 4"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H5",
+              "name": "Harbor City Sharks Player 5"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H6",
+              "name": "Harbor City Sharks Player 6"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H7",
+              "name": "Harbor City Sharks Player 7"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H8",
+              "name": "Harbor City Sharks Player 8"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H9",
+              "name": "Harbor City Sharks Player 9"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "H10",
+              "name": "Harbor City Sharks Player 10"
+            }
+          ],
+          "id": "team-H",
+          "name": "Harbor City Sharks",
+          "shortName": "HBR"
+        },
+        "playingXiIds": [
+          "H0",
+          "H1",
+          "H2",
+          "H3",
+          "H4",
+          "H5",
+          "H6",
+          "H7",
+          "H8",
+          "H9",
+          "H10"
+        ]
+      }
+    ],
+    "innings": [
+      {
+        "id": "innings_9c7ace5b-500b-4336-b266-d8055f574cd8",
+        "matchId": "match_a5fc6941-e9ad-4230-9e88-a4f20a041e87",
+        "battingTeamId": "team-G",
+        "bowlingTeamId": "team-H",
+        "inningsNumber": 1,
+        "state": "in-progress",
+        "deliveries": [
+          {
+            "id": "edit-0",
+            "inningsId": "innings_9c7ace5b-500b-4336-b266-d8055f574cd8",
+            "sequenceNumber": 0,
+            "overNumber": 0,
+            "legalBallNumber": 1,
+            "strikerIdBefore": "G0",
+            "nonStrikerIdBefore": "G1",
+            "bowlerId": "H0",
+            "batterRuns": 1,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          },
+          {
+            "id": "edit-1",
+            "inningsId": "innings_9c7ace5b-500b-4336-b266-d8055f574cd8",
+            "sequenceNumber": 1,
+            "overNumber": 0,
+            "legalBallNumber": 2,
+            "strikerIdBefore": "G1",
+            "nonStrikerIdBefore": "G0",
+            "bowlerId": "H0",
+            "batterRuns": 6,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          }
+        ],
+        "batterInnings": {
+          "G0": {
+            "playerId": "G0",
+            "state": "batting",
+            "runs": 1,
+            "ballsFaced": 1,
+            "fours": 0,
+            "sixes": 0,
+            "battingPosition": 1
+          },
+          "G1": {
+            "playerId": "G1",
+            "state": "batting",
+            "runs": 6,
+            "ballsFaced": 1,
+            "fours": 0,
+            "sixes": 1,
+            "battingPosition": 2
+          }
+        },
+        "bowlerFigures": {
+          "H0": {
+            "playerId": "H0",
+            "legalBallsBowled": 2,
+            "runsConceded": 7,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 0,
+            "noBalls": 0
+          }
+        },
+        "currentBatters": {
+          "striker": "G1",
+          "nonStriker": "G0"
+        },
+        "currentBowlerId": "H0",
+        "freeHitActive": false,
+        "legalBallsBowled": 2,
+        "wicketsLost": 0,
+        "declared": false,
+        "retirements": [],
+        "corrections": [
+          {
+            "id": "edit-2",
+            "originalDelivery": {
+              "id": "delivery_3bc43656-57c9-4b30-9762-9cc936a2ab1b",
+              "inningsId": "innings_9c7ace5b-500b-4336-b266-d8055f574cd8",
+              "sequenceNumber": 1,
+              "overNumber": 0,
+              "legalBallNumber": 2,
+              "strikerIdBefore": "G1",
+              "nonStrikerIdBefore": "G0",
+              "bowlerId": "H0",
+              "batterRuns": 2,
+              "extras": {
+                "wides": 0,
+                "noBallRuns": 0,
+                "byes": 0,
+                "legByes": 0,
+                "penaltyRuns": 0
+              },
+              "outcome": "legal",
+              "isFreeHit": false,
+              "timestamp": "2026-11-15T10:00:00.000Z"
+            },
+            "correctedDeliveryId": "edit-1",
+            "reason": "Scorer mis-recorded the run value; corrected from video review.",
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          }
+        ]
+      }
+    ],
+    "status": "ongoing",
+    "createdAt": "2026-11-15T12:59:33.952Z",
+    "updatedAt": "2026-11-15T12:59:33.952Z",
+    "toss": {
+      "wonByTeamId": "team-G",
+      "decision": "bat"
+    }
+  },
+  "metadata": {
+    "exportedAt": "2026-11-15T10:00:00.000Z",
+    "engineVersion": "1.0.0"
+  }
+}

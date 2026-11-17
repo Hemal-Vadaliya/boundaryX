@@ -1,0 +1,543 @@
+{
+  "app": "BoundaryX",
+  "schemaVersion": 1,
+  "match": {
+    "id": "match_db837db8-ead2-4e75-942b-f2db32e59642",
+    "name": "Alpha Strikers vs Beta Warriors",
+    "venue": "Central Oval",
+    "matchDate": "2026-11-15",
+    "formatConfig": {
+      "playersPerSide": 11,
+      "ballsPerOver": 6,
+      "format": "T20",
+      "oversPerInnings": 20,
+      "inningsPerTeam": 1,
+      "isCustom": false
+    },
+    "rulesProfile": {
+      "ballsPerOver": 6,
+      "playersPerSide": 11,
+      "noConsecutiveOvers": true,
+      "byesCountAsLegalDelivery": true,
+      "id": "standard-t20",
+      "label": "Standard T20",
+      "isOfficial": false,
+      "oversPerInnings": 20,
+      "inningsPerTeam": 1,
+      "maxOversPerBowler": 4,
+      "freeHitEnabled": true,
+      "followOnEnabled": false,
+      "superOverEnabled": true,
+      "powerplays": [
+        {
+          "name": "Powerplay",
+          "startOver": 0,
+          "endOver": 5,
+          "maxFieldersOutsideCircle": 2
+        }
+      ]
+    },
+    "teams": [
+      {
+        "team": {
+          "squad": [
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A0",
+              "name": "Alpha Strikers Player 0"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A1",
+              "name": "Alpha Strikers Player 1"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A2",
+              "name": "Alpha Strikers Player 2"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A3",
+              "name": "Alpha Strikers Player 3"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A4",
+              "name": "Alpha Strikers Player 4"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A5",
+              "name": "Alpha Strikers Player 5"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A6",
+              "name": "Alpha Strikers Player 6"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A7",
+              "name": "Alpha Strikers Player 7"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A8",
+              "name": "Alpha Strikers Player 8"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A9",
+              "name": "Alpha Strikers Player 9"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "A10",
+              "name": "Alpha Strikers Player 10"
+            }
+          ],
+          "id": "team-A",
+          "name": "Alpha Strikers",
+          "shortName": "ALP"
+        },
+        "playingXiIds": [
+          "A0",
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8",
+          "A9",
+          "A10"
+        ],
+        "captainId": "A0"
+      },
+      {
+        "team": {
+          "squad": [
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B0",
+              "name": "Beta Warriors Player 0"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B1",
+              "name": "Beta Warriors Player 1"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B2",
+              "name": "Beta Warriors Player 2"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B3",
+              "name": "Beta Warriors Player 3"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B4",
+              "name": "Beta Warriors Player 4"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B5",
+              "name": "Beta Warriors Player 5"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B6",
+              "name": "Beta Warriors Player 6"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B7",
+              "name": "Beta Warriors Player 7"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B8",
+              "name": "Beta Warriors Player 8"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B9",
+              "name": "Beta Warriors Player 9"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "B10",
+              "name": "Beta Warriors Player 10"
+            }
+          ],
+          "id": "team-B",
+          "name": "Beta Warriors",
+          "shortName": "BET"
+        },
+        "playingXiIds": [
+          "B0",
+          "B1",
+          "B2",
+          "B3",
+          "B4",
+          "B5",
+          "B6",
+          "B7",
+          "B8",
+          "B9",
+          "B10"
+        ],
+        "wicketkeeperId": "B0"
+      }
+    ],
+    "innings": [
+      {
+        "id": "innings_25c18be4-200b-4eb7-be6c-0d9237907834",
+        "matchId": "match_db837db8-ead2-4e75-942b-f2db32e59642",
+        "battingTeamId": "team-A",
+        "bowlingTeamId": "team-B",
+        "inningsNumber": 1,
+        "state": "completed",
+        "deliveries": [
+          {
+            "id": "delivery_ed2bb389-7d20-4fbe-a776-7390f920e457",
+            "inningsId": "innings_25c18be4-200b-4eb7-be6c-0d9237907834",
+            "sequenceNumber": 0,
+            "overNumber": 0,
+            "legalBallNumber": 1,
+            "strikerIdBefore": "A0",
+            "nonStrikerIdBefore": "A1",
+            "bowlerId": "B0",
+            "batterRuns": 4,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          },
+          {
+            "id": "delivery_321678ca-fc73-417e-aa35-5b457410026c",
+            "inningsId": "innings_25c18be4-200b-4eb7-be6c-0d9237907834",
+            "sequenceNumber": 1,
+            "overNumber": 0,
+            "strikerIdBefore": "A0",
+            "nonStrikerIdBefore": "A1",
+            "bowlerId": "B0",
+            "batterRuns": 0,
+            "extras": {
+              "wides": 1,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "wide",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          },
+          {
+            "id": "delivery_438dd3f4-e54d-4ee3-846e-241bf0741b54",
+            "inningsId": "innings_25c18be4-200b-4eb7-be6c-0d9237907834",
+            "sequenceNumber": 2,
+            "overNumber": 0,
+            "legalBallNumber": 2,
+            "strikerIdBefore": "A1",
+            "nonStrikerIdBefore": "A0",
+            "bowlerId": "B0",
+            "batterRuns": 1,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          },
+          {
+            "id": "delivery_3a4b8157-425e-4d5b-9e4f-3041369264c2",
+            "inningsId": "innings_25c18be4-200b-4eb7-be6c-0d9237907834",
+            "sequenceNumber": 3,
+            "overNumber": 0,
+            "legalBallNumber": 3,
+            "strikerIdBefore": "A0",
+            "nonStrikerIdBefore": "A1",
+            "bowlerId": "B0",
+            "batterRuns": 0,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "dismissal": {
+              "type": "bowled",
+              "dismissedPlayerId": "A0",
+              "dismissedEnd": "striker",
+              "creditsBowler": true
+            },
+            "incomingBatterId": "A2",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          },
+          {
+            "id": "delivery_17e7f1cc-0fde-4612-a439-408b1ea36d3b",
+            "inningsId": "innings_25c18be4-200b-4eb7-be6c-0d9237907834",
+            "sequenceNumber": 4,
+            "overNumber": 0,
+            "legalBallNumber": 4,
+            "strikerIdBefore": "A2",
+            "nonStrikerIdBefore": "A1",
+            "bowlerId": "B0",
+            "batterRuns": 0,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 1,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          },
+          {
+            "id": "delivery_a446fce0-d820-4314-827f-4fa667a8f21f",
+            "inningsId": "innings_25c18be4-200b-4eb7-be6c-0d9237907834",
+            "sequenceNumber": 5,
+            "overNumber": 0,
+            "legalBallNumber": 5,
+            "strikerIdBefore": "A1",
+            "nonStrikerIdBefore": "A2",
+            "bowlerId": "B0",
+            "batterRuns": 2,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          }
+        ],
+        "batterInnings": {
+          "A0": {
+            "playerId": "A0",
+            "state": "out",
+            "runs": 4,
+            "ballsFaced": 2,
+            "fours": 1,
+            "sixes": 0,
+            "battingPosition": 1
+          },
+          "A1": {
+            "playerId": "A1",
+            "state": "batting",
+            "runs": 3,
+            "ballsFaced": 2,
+            "fours": 0,
+            "sixes": 0,
+            "battingPosition": 2
+          },
+          "A2": {
+            "playerId": "A2",
+            "state": "batting",
+            "runs": 0,
+            "ballsFaced": 1,
+            "fours": 0,
+            "sixes": 0,
+            "battingPosition": 3
+          }
+        },
+        "bowlerFigures": {
+          "B0": {
+            "playerId": "B0",
+            "legalBallsBowled": 5,
+            "runsConceded": 8,
+            "wickets": 1,
+            "maidens": 0,
+            "wides": 1,
+            "noBalls": 0
+          }
+        },
+        "freeHitActive": false,
+        "legalBallsBowled": 5,
+        "wicketsLost": 1,
+        "declared": false,
+        "retirements": [],
+        "corrections": []
+      },
+      {
+        "id": "innings_b62f90df-bf13-402d-b199-18384c7f95fd",
+        "matchId": "match_db837db8-ead2-4e75-942b-f2db32e59642",
+        "battingTeamId": "team-B",
+        "bowlingTeamId": "team-A",
+        "inningsNumber": 2,
+        "state": "completed",
+        "deliveries": [
+          {
+            "id": "delivery_09a1216d-ea21-4658-bdee-84a80a6dbedc",
+            "inningsId": "innings_b62f90df-bf13-402d-b199-18384c7f95fd",
+            "sequenceNumber": 0,
+            "overNumber": 0,
+            "legalBallNumber": 1,
+            "strikerIdBefore": "B1",
+            "nonStrikerIdBefore": "B2",
+            "bowlerId": "A0",
+            "batterRuns": 6,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          },
+          {
+            "id": "delivery_7345a8b9-4d83-4a19-81c5-3655e9200ccf",
+            "inningsId": "innings_b62f90df-bf13-402d-b199-18384c7f95fd",
+            "sequenceNumber": 1,
+            "overNumber": 0,
+            "legalBallNumber": 2,
+            "strikerIdBefore": "B1",
+            "nonStrikerIdBefore": "B2",
+            "bowlerId": "A0",
+            "batterRuns": 4,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          }
+        ],
+        "batterInnings": {
+          "B1": {
+            "playerId": "B1",
+            "state": "batting",
+            "runs": 10,
+            "ballsFaced": 2,
+            "fours": 1,
+            "sixes": 1,
+            "battingPosition": 1
+          },
+          "B2": {
+            "playerId": "B2",
+            "state": "batting",
+            "runs": 0,
+            "ballsFaced": 0,
+            "fours": 0,
+            "sixes": 0,
+            "battingPosition": 2
+          }
+        },
+        "bowlerFigures": {
+          "A0": {
+            "playerId": "A0",
+            "legalBallsBowled": 2,
+            "runsConceded": 10,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 0,
+            "noBalls": 0
+          }
+        },
+        "freeHitActive": false,
+        "legalBallsBowled": 2,
+        "wicketsLost": 0,
+        "declared": false,
+        "target": 9,
+        "retirements": [],
+        "corrections": []
+      }
+    ],
+    "status": "completed",
+    "createdAt": "2026-11-15T12:59:33.906Z",
+    "updatedAt": "2026-11-15T12:59:33.906Z",
+    "toss": {
+      "wonByTeamId": "team-A",
+      "decision": "bat"
+    },
+    "result": {
+      "outcome": "win",
+      "winningTeamId": "team-B",
+      "winMargin": {
+        "by": "wickets",
+        "amount": 10
+      },
+      "summary": "Won by 10 wickets."
+    }
+  },
+  "metadata": {
+    "exportedAt": "2026-11-15T10:00:00.000Z",
+    "engineVersion": "1.0.0"
+  }
+}

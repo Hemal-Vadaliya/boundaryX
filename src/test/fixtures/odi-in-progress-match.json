@@ -1,0 +1,380 @@
+{
+  "app": "BoundaryX",
+  "schemaVersion": 1,
+  "match": {
+    "id": "match_33275533-d138-446d-abac-7525f39fc0d2",
+    "name": "Coastal Eagles vs Desert Falcons",
+    "venue": "Riverside Ground",
+    "matchDate": "2026-11-20",
+    "formatConfig": {
+      "playersPerSide": 11,
+      "ballsPerOver": 6,
+      "format": "ODI",
+      "oversPerInnings": 50,
+      "inningsPerTeam": 1,
+      "isCustom": false
+    },
+    "rulesProfile": {
+      "ballsPerOver": 6,
+      "playersPerSide": 11,
+      "noConsecutiveOvers": true,
+      "byesCountAsLegalDelivery": true,
+      "id": "standard-odi",
+      "label": "Standard ODI",
+      "isOfficial": false,
+      "oversPerInnings": 50,
+      "inningsPerTeam": 1,
+      "maxOversPerBowler": 10,
+      "freeHitEnabled": true,
+      "followOnEnabled": false,
+      "superOverEnabled": true,
+      "powerplays": [
+        {
+          "name": "Powerplay 1",
+          "startOver": 0,
+          "endOver": 9,
+          "maxFieldersOutsideCircle": 2
+        },
+        {
+          "name": "Powerplay 2",
+          "startOver": 10,
+          "endOver": 39,
+          "maxFieldersOutsideCircle": 4
+        },
+        {
+          "name": "Powerplay 3",
+          "startOver": 40,
+          "endOver": 49,
+          "maxFieldersOutsideCircle": 4
+        }
+      ]
+    },
+    "teams": [
+      {
+        "team": {
+          "squad": [
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C0",
+              "name": "Coastal Eagles Player 0"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C1",
+              "name": "Coastal Eagles Player 1"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C2",
+              "name": "Coastal Eagles Player 2"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C3",
+              "name": "Coastal Eagles Player 3"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C4",
+              "name": "Coastal Eagles Player 4"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C5",
+              "name": "Coastal Eagles Player 5"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C6",
+              "name": "Coastal Eagles Player 6"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C7",
+              "name": "Coastal Eagles Player 7"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C8",
+              "name": "Coastal Eagles Player 8"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C9",
+              "name": "Coastal Eagles Player 9"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "C10",
+              "name": "Coastal Eagles Player 10"
+            }
+          ],
+          "id": "team-C",
+          "name": "Coastal Eagles",
+          "shortName": "CST"
+        },
+        "playingXiIds": [
+          "C0",
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8",
+          "C9",
+          "C10"
+        ]
+      },
+      {
+        "team": {
+          "squad": [
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D0",
+              "name": "Desert Falcons Player 0"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D1",
+              "name": "Desert Falcons Player 1"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D2",
+              "name": "Desert Falcons Player 2"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D3",
+              "name": "Desert Falcons Player 3"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D4",
+              "name": "Desert Falcons Player 4"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D5",
+              "name": "Desert Falcons Player 5"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D6",
+              "name": "Desert Falcons Player 6"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D7",
+              "name": "Desert Falcons Player 7"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D8",
+              "name": "Desert Falcons Player 8"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D9",
+              "name": "Desert Falcons Player 9"
+            },
+            {
+              "role": "batter",
+              "isCaptain": false,
+              "isWicketkeeper": false,
+              "id": "D10",
+              "name": "Desert Falcons Player 10"
+            }
+          ],
+          "id": "team-D",
+          "name": "Desert Falcons",
+          "shortName": "DST"
+        },
+        "playingXiIds": [
+          "D0",
+          "D1",
+          "D2",
+          "D3",
+          "D4",
+          "D5",
+          "D6",
+          "D7",
+          "D8",
+          "D9",
+          "D10"
+        ]
+      }
+    ],
+    "innings": [
+      {
+        "id": "innings_df4295cd-2eec-46dc-9f31-7ad4a4297a16",
+        "matchId": "match_33275533-d138-446d-abac-7525f39fc0d2",
+        "battingTeamId": "team-C",
+        "bowlingTeamId": "team-D",
+        "inningsNumber": 1,
+        "state": "in-progress",
+        "deliveries": [
+          {
+            "id": "delivery_86329f97-5bc0-441c-9ccb-51eefa138989",
+            "inningsId": "innings_df4295cd-2eec-46dc-9f31-7ad4a4297a16",
+            "sequenceNumber": 0,
+            "overNumber": 0,
+            "legalBallNumber": 1,
+            "strikerIdBefore": "C0",
+            "nonStrikerIdBefore": "C1",
+            "bowlerId": "D0",
+            "batterRuns": 1,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          },
+          {
+            "id": "delivery_bccbef55-83e7-4e34-95d6-2d0e24c802d7",
+            "inningsId": "innings_df4295cd-2eec-46dc-9f31-7ad4a4297a16",
+            "sequenceNumber": 1,
+            "overNumber": 0,
+            "strikerIdBefore": "C1",
+            "nonStrikerIdBefore": "C0",
+            "bowlerId": "D0",
+            "batterRuns": 0,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 1,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "no-ball",
+            "isFreeHit": false,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          },
+          {
+            "id": "delivery_440c2ad0-ce27-4eff-8ea8-5f6add96f663",
+            "inningsId": "innings_df4295cd-2eec-46dc-9f31-7ad4a4297a16",
+            "sequenceNumber": 2,
+            "overNumber": 0,
+            "legalBallNumber": 2,
+            "strikerIdBefore": "C1",
+            "nonStrikerIdBefore": "C0",
+            "bowlerId": "D0",
+            "batterRuns": 4,
+            "extras": {
+              "wides": 0,
+              "noBallRuns": 0,
+              "byes": 0,
+              "legByes": 0,
+              "penaltyRuns": 0
+            },
+            "outcome": "legal",
+            "isFreeHit": true,
+            "timestamp": "2026-11-15T10:00:00.000Z"
+          }
+        ],
+        "batterInnings": {
+          "C0": {
+            "playerId": "C0",
+            "state": "batting",
+            "runs": 1,
+            "ballsFaced": 1,
+            "fours": 0,
+            "sixes": 0,
+            "battingPosition": 1
+          },
+          "C1": {
+            "playerId": "C1",
+            "state": "batting",
+            "runs": 4,
+            "ballsFaced": 2,
+            "fours": 1,
+            "sixes": 0,
+            "battingPosition": 2
+          }
+        },
+        "bowlerFigures": {
+          "D0": {
+            "playerId": "D0",
+            "legalBallsBowled": 2,
+            "runsConceded": 6,
+            "wickets": 0,
+            "maidens": 0,
+            "wides": 0,
+            "noBalls": 1
+          }
+        },
+        "currentBatters": {
+          "striker": "C1",
+          "nonStriker": "C0"
+        },
+        "currentBowlerId": "D0",
+        "freeHitActive": false,
+        "legalBallsBowled": 2,
+        "wicketsLost": 0,
+        "declared": false,
+        "retirements": [],
+        "corrections": []
+      }
+    ],
+    "status": "ongoing",
+    "createdAt": "2026-11-15T12:59:33.935Z",
+    "updatedAt": "2026-11-15T12:59:33.935Z",
+    "toss": {
+      "wonByTeamId": "team-D",
+      "decision": "bowl"
+    }
+  },
+  "metadata": {
+    "exportedAt": "2026-11-15T10:00:00.000Z",
+    "engineVersion": "1.0.0"
+  }
+}
