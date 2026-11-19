@@ -21,8 +21,8 @@ function labelForDelivery(delivery: Delivery): string {
 function classForDelivery(delivery: Delivery): string {
   if (delivery.dismissal) return 'bg-destructive text-destructive-foreground'
   if (delivery.outcome !== 'legal') return 'bg-warning text-warning-foreground'
-  if (delivery.batterRuns === 4 || delivery.batterRuns === 6)
-    return 'bg-success text-success-foreground'
+  if (delivery.batterRuns === 6) return 'bg-six text-six-foreground'
+  if (delivery.batterRuns === 4) return 'bg-success text-success-foreground'
   return 'bg-muted text-foreground'
 }
 

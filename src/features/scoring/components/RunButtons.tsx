@@ -17,14 +17,17 @@ export function RunButtons({ onSelectRuns, disabled }: RunButtonsProps) {
   return (
     <div className="grid grid-cols-4 gap-2 sm:grid-cols-7">
       {RUN_VALUES.map((runs) => {
-        const isBoundary = runs === 4 || runs === 6
+        const isFour = runs === 4
+        const isSix = runs === 6
+        const isBoundary = isFour || isSix
         return (
           <motion.div key={runs} whileTap={{ scale: isBoundary ? 0.85 : 0.92 }}>
             <Button
               variant={isBoundary ? 'default' : 'outline'}
               className={cn(
                 'h-12 w-full text-base font-semibold',
-                isBoundary && 'bg-success text-success-foreground hover:bg-success/90'
+                isFour && 'bg-success text-success-foreground hover:bg-success/90',
+                isSix && 'bg-six text-six-foreground hover:bg-six/90'
               )}
               disabled={disabled}
               onClick={() => onSelectRuns(runs)}

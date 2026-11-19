@@ -52,10 +52,9 @@ Click **New Match** and work through the setup wizard:
    new team on the spot.
 4. **Playing XI** for each team — select exactly as many players as the
    format calls for, and mark a captain and wicketkeeper.
-5. **Toss** — record who won and what they chose to do.
-6. **Confirm** — review everything and start the match.
+5. **Toss** — record who won and what they chose to do, then start the match.
 
-Once confirmed, you'll be asked to pick the opening striker, non-striker,
+Once the match starts, you'll be asked to pick the opening striker, non-striker,
 and bowler, and scoring begins.
 
 ## Scoring a match

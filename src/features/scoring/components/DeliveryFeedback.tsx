@@ -16,7 +16,7 @@ interface DeliveryFeedbackProps {
 
 const CONTENT: Record<DeliveryFeedbackKind, { label: string; className: string }> = {
   four: { label: 'FOUR!', className: 'bg-success text-success-foreground' },
-  six: { label: 'SIX!', className: 'bg-success text-success-foreground' },
+  six: { label: 'SIX!', className: 'bg-six text-six-foreground' },
   wicket: { label: 'WICKET!', className: 'bg-destructive text-destructive-foreground' },
   'over-complete': { label: 'Over complete', className: 'bg-secondary text-secondary-foreground' },
 }

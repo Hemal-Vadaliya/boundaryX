@@ -7,18 +7,19 @@ export interface OngoingMatchOptions {
   oversPerInnings?: number
 }
 
-async function addPlayerInWizard(page: Page, name: string) {
+async function addPlayerToPool(page: Page, name: string) {
   await page.getByPlaceholder('Player name').fill(name)
   await page.getByRole('button', { name: 'Add' }).click()
 }
 
 /**
  * Drives the full New Match wizard (details -> rules -> Team A name ->
- * Team B name -> Team A players -> Team A XI -> Team B players -> Team B
- * XI -> toss -> confirm) to reach an ongoing match named
- * "Alpha vs Beta Opener" with Team Alpha (11 players) and Team Beta
- * (11 players), Team Alpha batting first. Shared by match-setup.spec.ts
- * and live-scoring.spec.ts so the latter doesn't duplicate this walkthrough.
+ * Team B name -> player pool -> Team A player selection -> Team B player
+ * selection -> player arrangement -> Team A XI -> Team B XI -> toss) to
+ * reach an ongoing match named "Alpha vs Beta Opener" with
+ * Team Alpha (11 players) and Team Beta (11 players), Team Alpha batting
+ * first. Shared by match-setup.spec.ts and live-scoring.spec.ts so the
+ * latter doesn't duplicate this walkthrough.
  */
 export async function createOngoingMatch(page: Page, options: OngoingMatchOptions = {}) {
   const matchName = options.matchName ?? 'Alpha vs Beta Opener'
@@ -38,20 +39,35 @@ export async function createOngoingMatch(page: Page, options: OngoingMatchOption
   await page.getByRole('button', { name: 'Next' }).click() // -> Team B name
 
   await page.getByLabel('Team B name').fill('Team Beta')
-  await page.getByRole('button', { name: 'Next' }).click() // -> Team A players
+  await page.getByRole('button', { name: 'Next' }).click() // -> Player pool
 
   for (let i = 1; i <= 11; i++) {
-    await addPlayerInWizard(page, `Alpha Player ${i}`)
+    await addPlayerToPool(page, `Alpha Player ${i}`)
   }
+  for (let i = 1; i <= 11; i++) {
+    await addPlayerToPool(page, `Beta Player ${i}`)
+  }
+  await page.getByRole('button', { name: 'Next' }).click() // -> Team A player selection
+
+  for (let i = 1; i <= 11; i++) {
+    await page
+      .getByRole('button', { name: 'Add' })
+      .first()
+      .click()
+  }
+  await page.getByRole('button', { name: 'Next' }).click() // -> Team B player selection
+
+  for (let i = 1; i <= 11; i++) {
+    await page
+      .getByRole('button', { name: 'Add' })
+      .first()
+      .click()
+  }
+  await page.getByRole('button', { name: 'Next' }).click() // -> Player Arrangement
   await page.getByRole('button', { name: 'Next' }).click() // -> Team A XI
 
   for (let i = 1; i <= 11; i++) {
     await page.getByLabel(`Alpha Player ${i}`, { exact: true }).click()
-  }
-  await page.getByRole('button', { name: 'Next' }).click() // -> Team B players
-
-  for (let i = 1; i <= 11; i++) {
-    await addPlayerInWizard(page, `Beta Player ${i}`)
   }
   await page.getByRole('button', { name: 'Next' }).click() // -> Team B XI
 
@@ -62,7 +78,6 @@ export async function createOngoingMatch(page: Page, options: OngoingMatchOption
 
   await page.getByLabel('Team Alpha').click()
   await page.getByLabel('Bat first').click()
-  await page.getByRole('button', { name: 'Next' }).click() // -> Confirm
 
   await page.getByRole('button', { name: 'Start Match' }).click()
   await expect(page.getByRole('heading', { name: matchName })).toBeVisible()
